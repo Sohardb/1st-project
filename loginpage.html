@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    </head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class=" icon"><ion-icon name="home-outline"></ion-icon></a>
+            <a href="cvv.html"class="icon"><ion-icon name="person-outline"></ion-icon></a>
+            <a href="#"class="icon"><ion-icon name="settings-outline"></ion-icon></a>
+            <a href="#"class="icon"><ion-icon name="planet-outline"></ion-icon></a>
+            <button class="btnlogin-popup" onclick="myFunction()" >Login</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <span class="icon-close" onclick="myfunction()"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="login">
+          <H1>LOGIN</H1>
+         <form action="#">
+        <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required>
+            <label>Email</label>
+        </div>
+        <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+        </div>
+        <div class="remember-forget">
+            <label><input type="checkbox">REMEMBER ME</label>
+            <a href="#" onclick="myfunc()">forget password</a>
+        </div>
+        <button type="submit" class="btn"> LOGIN</button>
+        <div class="login-resistor"><p>Don't have account?<a  onclick="myff()" >Sign-Up</a></p></div>
+        </form>
+        </div>
+
+
+
+        <div class="resister">
+           <h1>SIGN-UP</h1>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" required>
+                <label>Username</label>
+            </div>
+       <div class="input-box">
+           <span class="icon"><ion-icon name="mail"></ion-icon></span>
+           <input type="email" required>
+           <label>Email</label>
+       </div>
+       <div class="input-box">
+           <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+           <input type="password" required>
+           <label>Password</label>
+       </div>
+       <div class="remember-forget">
+        <label><input type="checkbox">I Agree To Terms & Condition</label>
+       </div>
+       <button type="submit" class="btn"> RESISTER</button>
+       <div class="login-resistor"><p>Already have account?<a  onclick="myf()" >Login</a></p></div>
+       </form>
+       </div>
+
+
+
+       <div class="forget">
+        <h1>FORGET-PASSWORD</h1>
+     <form action="#">
+    <div class="input-box">
+        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+        <input type="email" >
+        <label>Email</label>
+    </div>
+    <div class="input-box">
+        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+        <input type="password" >
+        <label>New Password</label>
+    </div>
+    <div class="input-box">
+        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+        <input type="password">
+        <label> Confirm Password</label>
+    </div>
+
+    <button type="submit" class="btn" >RESET PASSWORD</button>
+
+    <div class="login-resistor"><p>go back to<a  onclick="ff()" >Login</a></p></div>
+    </form>
+    </div>
+
+    </div>
+    
+    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="fuck.js"></script>
+</body>
+</html>
